@@ -1,0 +1,11 @@
+docker commands
+
+docker build -t tasksimage -f M:\Simplilearn\mphasis\Phase-3\Day-4\Assign3\Assign3\Dockerfile .
+
+docker images
+
+docker run -d -p 8080:80 --name taskcontainer tasksimage
+
+--in browser
+http://localhost:8080/api/Tasks
+
